@@ -9,35 +9,10 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State var btnLbl = "Button"
-    @State var btnLbl1 = "Button1"
     var body: some View {
         VStack {
+            ImageView()
             TextView()
-            VStack(alignment: .leading) {
-                Text("Hello, world!")
-                    .font(.title)
-                    .foregroundColor(Color.green)
-                Text("Hello, world!")
-                Button(action: {
-                    btnLbl = "Hello, world!!!!"
-                }, label: {
-                    Text(btnLbl)
-                })
-            }
-            .padding()
-            VStack(alignment: .trailing) {
-                Text("Hello, world!")
-                    .font(.largeTitle)
-                    .foregroundColor(Color.orange)
-                Text("Hello, world!")
-                Button(action: {
-                    btnLbl1 = "Hello, world!!!!"
-                }, label: {
-                    Text(btnLbl1)
-                })
-            }
-            .padding()
         }
     }
 }

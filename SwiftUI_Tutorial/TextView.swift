@@ -25,18 +25,6 @@ struct TextView: View {
                 })
             }
             .padding()
-            VStack(alignment: .trailing) {
-                Text("Hello, world!")
-                    .font(.largeTitle)
-                    .foregroundColor(Color.yellow)
-                Text("Hello, world!")
-                Button(action: {
-                    btnLbl1 = "Hello, world!!!!"
-                }, label: {
-                    Text(btnLbl1)
-                })
-            }
-            .padding()
         }
     }
 }

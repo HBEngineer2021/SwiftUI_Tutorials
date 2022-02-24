@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D70119C527C7C13E00EB4F92 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70119C427C7C13E00EB4F92 /* ImageView.swift */; };
 		D749BF7C27C623F300A384F6 /* SwiftUI_TutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D749BF7B27C623F300A384F6 /* SwiftUI_TutorialApp.swift */; };
 		D749BF7E27C623F300A384F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D749BF7D27C623F300A384F6 /* ContentView.swift */; };
 		D749BF8027C623FA00A384F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D749BF7F27C623FA00A384F6 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D70119C427C7C13E00EB4F92 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 		D749BF7827C623F300A384F6 /* SwiftUI_Tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Tutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D749BF7B27C623F300A384F6 /* SwiftUI_TutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_TutorialApp.swift; sourceTree = "<group>"; };
 		D749BF7D27C623F300A384F6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				D749BF8427C623FA00A384F6 /* Info.plist */,
 				D749BF8127C623FA00A384F6 /* Preview Content */,
 				D749BFA627C6336900A384F6 /* TextView.swift */,
+				D70119C427C7C13E00EB4F92 /* ImageView.swift */,
 			);
 			path = SwiftUI_Tutorial;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D70119C527C7C13E00EB4F92 /* ImageView.swift in Sources */,
 				D749BFA727C6336900A384F6 /* TextView.swift in Sources */,
 				D749BF7E27C623F300A384F6 /* ContentView.swift in Sources */,
 				D749BF7C27C623F300A384F6 /* SwiftUI_TutorialApp.swift in Sources */,
