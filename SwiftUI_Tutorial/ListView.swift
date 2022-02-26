@@ -10,9 +10,9 @@ import SwiftUI
 struct ListView: View {
     var body: some View {
         List {
-            ListRow()
-            ListRow()
-            ListRow()
+            ListRow(model: [UmamusumeModel(name: "オグリキャップ",imageName: "umamusume_oguri")])
+            ListRow(model: [UmamusumeModel(name: "オグリ", imageName: "umamusume_oguri_run")])
+            ListRow(model: [UmamusumeModel(name: "オグリちゃん", imageName: "umamusume_oguri_cute")])
         }
     }
 }

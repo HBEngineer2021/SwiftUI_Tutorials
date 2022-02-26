@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ListRow: View {
     
-    var model = [UmamusumeModel(name: "オグリキャップ", imageName: "umamusume_oguri")]
+    var model = [UmamusumeModel]()
     
     var body: some View {
         HStack {
@@ -26,6 +26,7 @@ struct ListRow: View {
 
 struct ListRow_Previews: PreviewProvider {
     static var previews: some View {
-        ListRow()
+        ListRow(model: [UmamusumeModel(name: "オグリキャップ",
+                                       imageName: "umamusume_oguri")])
     }
 }
