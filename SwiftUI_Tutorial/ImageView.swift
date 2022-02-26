@@ -8,19 +8,25 @@
 import SwiftUI
 
 struct ImageView: View {
+    
+    var model = [UmamusumeModel]()
+    
     var body: some View {
         VStack {
-            Image("umamusume_oguri")
-                .resizable()
-                .scaledToFit()
-                .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
-                .overlay(Circle()
-                .stroke(Color.white, lineWidth: 4)
-                .shadow(radius: 3))
-            Text("オグリキャップ")
-                .font(.title3)
-                .fontWeight(.regular)
-                .underline()
+            ForEach(model.startIndex ..< model.endIndex) { num in
+                Image(model[num].imageName)
+                    .resizable()
+                    .scaledToFill()
+                    .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
+                    .frame(width: 200, height: 200, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                    .overlay(Circle()
+                                .stroke(Color.white, lineWidth: 4)
+                                .shadow(radius: 3))
+                Text(model[num].name)
+                    .font(.title3)
+                    .fontWeight(.regular)
+                    .underline()
+            }
         }
         .padding(.init(top: 50, leading: 50, bottom: 50, trailing: 50))
     }
@@ -28,6 +34,6 @@ struct ImageView: View {
 
 struct ImageView_Previews: PreviewProvider {
     static var previews: some View {
-        ImageView()
+        ImageView(model: [UmamusumeModel(name: "オグリキャップ", imageName: "umamusume_oguri")])
     }
 }

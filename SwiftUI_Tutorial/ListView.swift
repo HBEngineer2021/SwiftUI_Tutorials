@@ -8,11 +8,20 @@
 import SwiftUI
 
 struct ListView: View {
+    
+    var model = [UmamusumeModel(name: "オグリキャップ",imageName: "umamusume_oguri"),
+                 UmamusumeModel(name: "オグリ", imageName: "umamusume_oguri_run"),
+                 UmamusumeModel(name: "オグリちゃん", imageName: "umamusume_oguri_cute")]
+    
     var body: some View {
-        List {
-            ListRow(model: [UmamusumeModel(name: "オグリキャップ",imageName: "umamusume_oguri")])
-            ListRow(model: [UmamusumeModel(name: "オグリ", imageName: "umamusume_oguri_run")])
-            ListRow(model: [UmamusumeModel(name: "オグリちゃん", imageName: "umamusume_oguri_cute")])
+        NavigationView {
+            List(model.startIndex ..< model.endIndex) { i in
+                NavigationLink(
+                    destination: ImageView(model: [model[i]]),
+                    label: {
+                        ListRow(model: [model[i]])
+                    })
+            }.navigationTitle("推しのウマ娘")
         }
     }
 }
