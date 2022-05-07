@@ -17,6 +17,11 @@
 		D749BF8E27C623FA00A384F6 /* SwiftUI_TutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D749BF8D27C623FA00A384F6 /* SwiftUI_TutorialTests.swift */; };
 		D749BF9927C623FB00A384F6 /* SwiftUI_TutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D749BF9827C623FB00A384F6 /* SwiftUI_TutorialUITests.swift */; };
 		D749BFA727C6336900A384F6 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D749BFA627C6336900A384F6 /* TextView.swift */; };
+		D79AA89427D4CBAB0067C572 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79AA89327D4CBAB0067C572 /* PageViewController.swift */; };
+		D79AA89627D4CDDD0067C572 /* RacecourseCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79AA89527D4CDDD0067C572 /* RacecourseCard.swift */; };
+		D79AA89827D4E6670067C572 /* RacecourseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79AA89727D4E6670067C572 /* RacecourseModel.swift */; };
+		D79AA89A27D4EA960067C572 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79AA89927D4EA960067C572 /* PageView.swift */; };
+		D7A7F09928265E8900B8649E /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A7F09828265E8900B8649E /* PageControl.swift */; };
 		D7E1D31427C932CD00DF2BD6 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E1D31327C932CD00DF2BD6 /* ListView.swift */; };
 		D7E1D31627C9335F00DF2BD6 /* UmamusumeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E1D31527C9335F00DF2BD6 /* UmamusumeModel.swift */; };
 		D7E1D31827C9351A00DF2BD6 /* ListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E1D31727C9351A00DF2BD6 /* ListRow.swift */; };
@@ -56,6 +61,11 @@
 		D749BF9827C623FB00A384F6 /* SwiftUI_TutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_TutorialUITests.swift; sourceTree = "<group>"; };
 		D749BF9A27C623FB00A384F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D749BFA627C6336900A384F6 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		D79AA89327D4CBAB0067C572 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		D79AA89527D4CDDD0067C572 /* RacecourseCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RacecourseCard.swift; sourceTree = "<group>"; };
+		D79AA89727D4E6670067C572 /* RacecourseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RacecourseModel.swift; sourceTree = "<group>"; };
+		D79AA89927D4EA960067C572 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		D7A7F09828265E8900B8649E /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 		D7E1D31327C932CD00DF2BD6 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		D7E1D31527C9335F00DF2BD6 /* UmamusumeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UmamusumeModel.swift; sourceTree = "<group>"; };
 		D7E1D31727C9351A00DF2BD6 /* ListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRow.swift; sourceTree = "<group>"; };
@@ -121,6 +131,11 @@
 				D7E1D31727C9351A00DF2BD6 /* ListRow.swift */,
 				D71AAE0227D1041200BA6DA8 /* CategoryView.swift */,
 				D71AAE0427D1042800BA6DA8 /* CategoryRow.swift */,
+				D79AA89327D4CBAB0067C572 /* PageViewController.swift */,
+				D79AA89527D4CDDD0067C572 /* RacecourseCard.swift */,
+				D79AA89727D4E6670067C572 /* RacecourseModel.swift */,
+				D79AA89927D4EA960067C572 /* PageView.swift */,
+				D7A7F09828265E8900B8649E /* PageControl.swift */,
 			);
 			path = SwiftUI_Tutorial;
 			sourceTree = "<group>";
@@ -281,12 +296,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				D70119C527C7C13E00EB4F92 /* ImageView.swift in Sources */,
+				D79AA89427D4CBAB0067C572 /* PageViewController.swift in Sources */,
 				D749BFA727C6336900A384F6 /* TextView.swift in Sources */,
+				D79AA89627D4CDDD0067C572 /* RacecourseCard.swift in Sources */,
+				D79AA89A27D4EA960067C572 /* PageView.swift in Sources */,
 				D7E1D31427C932CD00DF2BD6 /* ListView.swift in Sources */,
 				D749BF7E27C623F300A384F6 /* ContentView.swift in Sources */,
 				D749BF7C27C623F300A384F6 /* SwiftUI_TutorialApp.swift in Sources */,
+				D7A7F09928265E8900B8649E /* PageControl.swift in Sources */,
 				D7E1D31827C9351A00DF2BD6 /* ListRow.swift in Sources */,
 				D71AAE0327D1041200BA6DA8 /* CategoryView.swift in Sources */,
+				D79AA89827D4E6670067C572 /* RacecourseModel.swift in Sources */,
 				D71AAE0527D1042800BA6DA8 /* CategoryRow.swift in Sources */,
 				D7E1D31627C9335F00DF2BD6 /* UmamusumeModel.swift in Sources */,
 			);
